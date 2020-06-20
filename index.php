@@ -31,7 +31,7 @@
                 </a>
             </div>
         </section>
-        <section>
+        <section id="boutique">
             <h2> Nous Retrouvez</h2>
             <div id="localisation">
                 <div class="categorieFooter paddingLocalisation">
@@ -53,17 +53,30 @@
             </div>
         </section>
         <section id="produit">
-            <img class="img-fluid" src="img/img3.jpg">
-            <img class="img-fluid" src="img/img4.jpg">
-            <img class="img-fluid" src="img/img3.jpg">
-            <img class="img-fluid" src="img/img5.jpg">
-            <img class="img-fluid" src="img/img4.jpg">
-            <img class="img-fluid" src="img/img3.jpg">
-            <img class="img-fluid" src="img/img3.jpg">
-            <img class="img-fluid" src="img/img5.jpg">
-            <img class="img-fluid" src="img/img4.jpg">
-            <img class="img-fluid" src="img/img3.jpg">
-            <img class="img-fluid" src="img/img4.jpg">
+            <h2> Nos produits </h2>
+            <div id="displayProduct">
+                <?php
+                    require_once('connectdb.php');
+                    $sql = "SELECT * FROM product LIMIT 4";
+                    $requete = $db->prepare($sql);
+                    $status = $requete->execute();
+                    if (!$status) {
+                        print_r($requete->errorInfo());
+                    }
+                    while ($donnees = $requete->fetch()) {
+                        ?>
+                    <div id="photoDescriptionProduct">
+                        <img src="<?php echo $donnees['product_picture']?>">
+                        <?php
+                        echo "<h4>", strip_tags($donnees['product_name']), "</h4>";
+                        ?>
+                    </div>
+                <?php
+                }
+                $requete->closeCursor();
+                ?>
+            </div>
+            <a href="produit.php"> Voir plus </a>
         </section>
         <div id="reseauSocial">
             <h2>Instagram</h2>

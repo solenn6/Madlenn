@@ -13,7 +13,7 @@ include('header.php');
             </div>
         </div>
         <div class="emplacementBoutique">
-            <div class="pictureLocalisation"> <img src="img/marche.jpg" alt="Photo stand Marché" name="photoMarche"></div>
+            <div class="pictureLocalisation"> <img src="img/saintservan.jpeg" alt="Photo stand Marché" name="photoMarche"></div>
             <div class="descriptionLocation">
                 <h3> Marché de Saint-Servan </h3>
                 <p> Jour : Mardi et Vendredi</p>
@@ -21,7 +21,7 @@ include('header.php');
             </div>
         </div>
         <div class="emplacementBoutique">
-            <div class="pictureLocalisation"> <img src="img/marche.jpg" alt="Photo stand Marché" name="photoMarche"></div>
+            <div class="pictureLocalisation"> <img src="img/parame.jpg" alt="Photo stand Marché" name="photoMarche"></div>
             <div class="descriptionLocation">
                 <h3> Marché de Paramé </h3>
                 <p> Jour : Mercredi et Samedi</p>
@@ -29,7 +29,7 @@ include('header.php');
             </div>
         </div>
         <div class="emplacementBoutique">
-            <div class="pictureLocalisation"> <img src="img/marche.jpg" alt="Photo stand Marché" name="photoMarche"></div>
+            <div class="pictureLocalisation"> <img src="img/rocabey.jpg" alt="Photo stand Marché" name="photoMarche"></div>
             <div class="descriptionLocation">
                 <h3> Marché de Rocabey  </h3>
                 <p> Jour : Jeudi et Samedi </p>

@@ -1,4 +1,8 @@
     <footer>
+        <div id="reseauSocial">
+            <h2>Instagram</h2>
+            <a href=""> @PatisserieMadlenn</a>
+        </div>
         <section id="piedDePage">
             <div class="categorieFooter">
                 <h3> Horaires </h3>

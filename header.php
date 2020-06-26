@@ -21,10 +21,18 @@
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>
-                        <li class="nav-item"><a href="produit.php" class="nav-link">Nos produits</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="produit.php" data-toggle="dropdown" >Notre Carte</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="produit.php">Tous nos produits</a>
+                                <a class="dropdown-item" href="patisserie.php">Patisserie</a>
+                                <a class="dropdown-item" href="boulangerie.php">Boulangerie</a>
+                                <a class="dropdown-item" href="viennoiserie.php">Viennoiserie</a>
+                                <a class="dropdown-item" href="biscuiterie.php">Biscuiterie</a>
+                            </div>
+                        </li>
                         <li class="nav-item"><a href="maison.php" class="nav-link">Notre Maison</a></li>
                         <li class="nav-item"><a href="localisation.php" class="nav-link">Nos adresses</a></li>
-                        <li class="nav-item"><a href="contact.php" class="nav-link">Nous contactez</a></li>
                     </ul>
                 </div>
             </div>

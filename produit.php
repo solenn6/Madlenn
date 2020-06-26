@@ -4,10 +4,11 @@ include('header.php');
         <section id="productPage">
             <h2> Nos Produits </h2>
             <div id="filtre">
-                <h3> Filtrer par  :</h3>
-                <button class="btn btn-default filter-button" data-filter="all">Categorie 1</button>
-                <button class="btn btn-default filter-button" data-filter="web"> Categorie 2 </button>
-                <button class="btn btn-default filter-button" data-filter="application"> Categorie 3</button>
+                <a class="dropdown-item active" href="produit.php">Tous nos produits</a>
+                <a class="dropdown-item" href="patisserie.php">Patisserie</a>
+                <a class="dropdown-item" href="boulangerie.php">Boulangerie</a>
+                <a class="dropdown-item" href="viennoiserie.php">Viennoiserie</a>
+                <a class="dropdown-item" href="biscuiterie.php">Biscuiterie</a>
             </div>
             <script src="js/script.js"></script>
             <div id="displayPageProduct">

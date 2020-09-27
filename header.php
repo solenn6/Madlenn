@@ -11,29 +11,33 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <h1> <span>Patisserie Madlenn</span> </h1>
-        <h2><span>Saint-Malo</span></h2>
+        <h1 class="title"> <span>Patisserie Madlenn</span> </h1>
+        <h2 class="title"><span>Saint-Malo</span></h2>
         <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
-            <div class="container-fluid">
+            <div class="container">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="fa fa-bars"></span> Menu
                 </button>
-                <div class="collapse navbar-collapse" id="ftco-nav">
-                    <ul class="navbar-nav m-auto">
-                        <li class="nav-item"><a href="index.php" class="nav-link">Accueil</a></li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="produit.php" data-toggle="dropdown" >Notre Carte</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="produit.php">Tous nos produits</a>
-                                <a class="dropdown-item" href="patisserie.php">Patisserie</a>
-                                <a class="dropdown-item" href="boulangerie.php">Boulangerie</a>
-                                <a class="dropdown-item" href="viennoiserie.php">Viennoiserie</a>
-                                <a class="dropdown-item" href="biscuiterie.php">Biscuiterie</a>
-                            </div>
-                        </li>
-                        <li class="nav-item"><a href="maison.php" class="nav-link">Notre Maison</a></li>
-                        <li class="nav-item"><a href="localisation.php" class="nav-link">Nos adresses</a></li>
-                    </ul>
+                <div class="row">
+                    <div class="collapse navbar-collapse" id="ftco-nav">
+                        <div class="col-lg-12">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item col-lg-8"><a href="index.php" class="nav-link">Accueil</a></li>
+                                <li class="nav-item dropdown col-lg-7">
+                                    <a class="nav-link dropdown-toggle" href="produit.php" data-toggle="dropdown" >Notre Carte</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="produit.php">Tous nos produits</a>
+                                        <a class="dropdown-item" href="patisserie.php">Patisserie</a>
+                                        <a class="dropdown-item" href="boulangerie.php">Boulangerie</a>
+                                        <a class="dropdown-item" href="viennoiserie.php">Viennoiserie</a>
+                                        <a class="dropdown-item" href="biscuiterie.php">Biscuiterie</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item col-lg-7"><a href="maison.php" class="nav-link">Notre Maison</a></li>
+                                <li class="nav-item col-lg-6"><a href="localisation.php" class="nav-link">Nos adresses</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>

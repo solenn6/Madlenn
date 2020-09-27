@@ -1,7 +1,7 @@
     <footer>
         <div id="reseauSocial">
             <h2>Instagram</h2>
-            <a href=""> @PatisserieMadlenn</a>
+            <a href="https://www.instagram.com/madlennsaintmalo/" target="_blank"> @PatisserieMadlenn</a>
         </div>
         <section id="piedDePage">
             <div class="categorieFooter">
@@ -11,6 +11,12 @@
                 <p> Saint-Servan: Mardi et Vendredi</p>
                 <p> Paramé: Mercredi et Samedi</p>
                 <p> Rocabey: Jeudi et Samedi </p>
+            </div>
+            <div>
+                <h3> Info contact</h3>
+                <p> madlenn.saintmalo@gmail.com</p>
+                <p> Boutique: 07 81 31 58 87</p>
+                <p> Labo: 07 81 07 91 55</p>
             </div>
             <div class="categorieFooter">
                 <h3> Informations Pratiques </h3>
@@ -26,16 +32,7 @@
             </div>
             <div class="categorieFooter">
                 <h3> Suivez-nous:</h3>
-                <p> Instagram </p>
-            </div>
-            <div>
-                <h3> Info contact</h3>
-                <p> madlenn.saintmalo@gmail.com</p>
-                <p> Boutique: 07 81 31 58 87</p>
-                <p> Labo: 07 81 07 91 55</p>
-                <br/><br/>
-                <h3> Administrateur</h3>
-                <a href="connectAdmin.php">Se connecter </a>
+                <a href="https://www.instagram.com/madlennsaintmalo/" target="_blank"> Instagram </a>
             </div>
         </section>
     </footer>

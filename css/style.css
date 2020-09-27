@@ -1,0 +1,649 @@
+*{  padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;}
+h1{
+    text-align: center;
+    padding-top: 25px;
+}
+h2{
+    text-align: center;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+nav, .title{
+    color: #e25541;
+}
+.centerText{
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+/* index */ 
+#localisation{
+    padding: 50px 0 100px 0;
+}
+#carrousel{
+    margin: 0 0px 0 0px;
+}
+.paddingLocalisation{
+    padding-bottom: 40px;
+    text-align: center;
+}
+#boutique{
+    margin-top: 100px;
+}
+#boutique h2{
+    padding-bottom: 40px;
+}
+#produit img{
+    width: 300px;
+}
+#produit a{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+#produit h2{
+    padding-top:80px;
+}
+#locationBoutiqueIndex{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+#photoDescriptionProduct{
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#displayProduct{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 100px 0 100px 0;
+}
+#reseauSocial{
+    height: 300px;
+    padding-top: 120px;
+    text-align: center;
+    background-color: #408487;}
+
+/* Page nous retrouver*/
+.hpadding{
+    margin-top: 80px;
+}
+.pictureLocalisation img{
+    width: 280px;
+}
+.emplacementBoutique{
+    height:500px;
+    width:300px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.emplacementBoutique h3{
+    padding-top: 20px;
+    padding-bottom: 6px;
+}
+#pageLocalisation{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 25px;
+}
+.descriptionLocation{
+    padding: 0 10px 0 10px;
+}
+.descriptionLocatmaiion img{
+    padding-right: 20px;
+}
+/* Page produit */
+#displayPageProduct img{
+    width: 300px;
+    max-height: 420px;
+}
+#photoDescriptionProduct h4{
+    text-align: center;
+    padding-top: 10px;
+}
+#displayPageProduct{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+#pictureProduct{
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    justify-content: center;
+}
+#pictureProduct h4{
+    text-align: center;
+    padding-top: 10px;
+}
+#productPage{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*  Maison */
+.displayMaison{
+    display: flex;
+    flex-direction: row;
+}
+.ouvertureBoutique{
+    text-align: left;
+    margin-left: 100px;
+}
+.ligneBus{
+    display: flex;
+    margin-left: 90px;
+}
+.ligneBus img {
+    height: 30px;
+}
+#textMaison1, #textMaison2, #textMaison3 {
+    font-size: 17px;
+}
+#imgMaison1{
+    width: 100%;
+}
+#imgMaison2{
+    width: 100%;
+}
+#imgMaison3{
+    width: 100%;
+}
+#textMaison1{
+    margin: 20px 60px 30px 60px; 
+}
+#textMaison2{
+    margin: 25px 60px 20px 60px; 
+}
+#textMaison3{
+    margin: 90px 60px 90px 60px; 
+}
+#emplacementMaison2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* Admin */
+
+#titlePageAdmin{
+    margin-bottom: 150px;
+}
+#addProduct h2{
+    padding-bottom: 100px;
+}
+#addProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+/* footer */
+.categorieFooter{
+    width: 250px;
+}
+#piedDePage, #localisation{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 15px;
+}
+#piedDePage h3{
+    padding-top: 30px;
+}
+.underline{
+    text-decoration: underline;
+}
+@media screen and (min-width:500px) and (max-width:600px){
+    #displayPageProduct{
+        margin: 10px 40px 100px 40px;
+    }
+    #carrousel{
+        margin: 0 30px 0 30px;
+    }
+    #imgMaison1{
+        width: 100%;
+    }
+    #ensembleMaison2, #ensembleMaison3{
+        display: flex;
+    }
+    #imgMaison2{
+        width: 400px;
+    }
+    #imgMaison3{
+        width: 400px;
+        margin-left: 20px;
+    }
+    #textMaison1{
+        margin: 20px 60px 30px 60px; 
+        width: 450px;
+    }
+    #textMaison2{
+        margin: 45px 25px 0 30px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 15px 10px 0 15px; 
+        width: 550px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:700px){
+    #displayPageProduct{
+        margin: 10px 40px 100px 40px;
+    }
+    #carrousel{
+        margin: 0 30px 0 30px;
+    }
+    #ensembleMaison2, #ensembleMaison3{
+        display: flex;
+    }
+    #imgMaison1{
+        width: 100%;
+    }
+    #imgMaison2{
+        width: 400px;
+    }
+    #imgMaison3{
+        width: 400px;
+        margin-left: 20px;
+    }
+    #textMaison1{
+        margin: 20px 80px 30px 130px; 
+        width: 450px;
+    }
+    #textMaison2{
+        margin: 75px 25px 0 30px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 20px 20px 0 15px; 
+        width: 550px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:800px){
+    #ensembleMaison1{
+        display: flex; 
+        margin: 50px 0 50px 0
+    }
+    #textMaison1, #textMaison2, #textMaison3 {
+        font-size: 17px;
+    }
+    #ensembleMaison2, #ensembleMaison3{
+        display: flex;
+    }
+    #imgMaison1{
+        width: 350px;
+    }
+    #imgMaison2{
+        width: 400px;
+    }
+    #imgMaison3{
+        width: 400px;
+        margin-left: 20px;
+    }
+    #textMaison1{
+        margin: 15px 30px 0 30px; 
+        width: 450px
+    }
+    #textMaison2{
+        margin: 55px 75px 0 90px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 35px 30px 0 45px; 
+        width: 550px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:900px){
+    #displayPageProduct{
+        margin: 80px 50px 80px 50px;
+    }
+    #carrousel{
+        margin: 0 50px 0 50px;
+    }
+    #ensembleMaison2, #ensembleMaison3{
+        display: flex;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    #ensembleMaison1{
+        display: flex; 
+        margin: 50px 0 50px 0
+    }
+    #textMaison1, #textMaison2, #textMaison3 {
+        font-size: 20px;
+    }
+    #ensembleMaison2, #ensembleMaison3{
+        display: flex;
+    }
+    #imgMaison1{
+        width: 400px;
+    }
+    #imgMaison2{
+        width: 500px;
+    }
+    #imgMaison3{
+        width: 600px;
+        margin-left: 40px;
+    }
+    #textMaison1{
+        margin: 20px 35px 0 40px; 
+        width: 450px
+    }
+    #textMaison2{
+        margin: 55px 75px 0 140px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 30px 30px 0 45px; 
+        width: 550px;
+    }
+}
+@media screen and (min-width:900px) and (max-width:991px){
+    #displayPageProduct{
+        margin: 100px;
+    }
+    #carrousel{
+        margin: 0 50px 0 50px;
+    }
+    #ensembleMaison1{
+        display: flex; 
+        margin: 50px 0 50px 0
+    }
+    #textMaison1, #textMaison2, #textMaison3 {
+        font-size: 20px;
+    }
+    #ensembleMaison2, #ensembleMaison3{
+        display: flex;
+    }
+    #imgMaison1{
+        width: 400px;
+    }
+    #imgMaison2{
+        width: 500px;
+    }
+    #imgMaison3{
+        width: 600px;
+        margin-left: 40px;
+    }
+    #textMaison1{
+        margin: 35px 60px 0 70px; 
+        width: 450px
+    }
+    #textMaison2{
+        margin: 85px 100px 0 170px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 35px 30px 0 85px; 
+        width: 550px;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1100px){
+    #navMenu{
+        width: 1000px;
+        text-align: center;
+    }
+    #ensembleMaison1{
+        display: flex; 
+        margin: 50px 0 50px 0
+    }
+    #textMaison1, #textMaison2, #textMaison3 {
+        font-size: 20px;
+    }
+    #ensembleMaison2, #ensembleMaison3{
+        display: flex;
+    }
+    #imgMaison1{
+        width: 500px;
+    }
+    #imgMaison2{
+        width: 500px;
+    }
+    #imgMaison3{
+        width: 600px;
+        margin-left: 80px;
+    }
+    #textMaison1{
+        margin: 65px 50px 0 120px; 
+        width: 550px
+    }
+    #textMaison2{
+        margin: 90px 130px 0 200px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 50px 80px 0 80px; 
+        width: 550px;
+    }
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px){
+    #navMenu{
+        width: 1100px;
+        text-align: center;
+    }
+    #imgMaison1{
+        width: 550px;
+    }
+    #imgMaison2{
+        width: 500px;
+    }
+    #imgMaison3{
+        width: 650px;
+        margin-left: 80px;
+    }
+    #textMaison1{
+        margin: 85px 50px 0 120px; 
+        width: 550px
+    }
+    #textMaison2{
+        margin: 120px 130px 0 230px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 75px 80px 0 130px; 
+        width: 550px;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1400px) {
+    #pageLocalisation {
+        padding: 80px 100px 80px 100px;
+    }
+    #carrousel{
+        margin: 0 100px 0 100px;
+    }
+    #navMenu{
+        width: 1225px;
+        text-align: center;
+    }
+
+    #displayPageProduct {
+        margin: 100px 120px 100px 120px;
+    }
+    #imgMaison1{
+        width: 600px;
+    }
+    #imgMaison2{
+        width: 600px;
+    }
+    #imgMaison3{
+        width: 950px;
+        margin-left: 100px;
+    }
+    #textMaison1{
+        margin: 110px 50px 0 120px; 
+        width: 550px
+    }
+    #textMaison2{
+        margin: 165px 140px 0 250px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 105px 70px 0 130px; 
+        width: 550px;
+    }
+}
+@media screen and (min-width:1400px) and (max-width:1600px){
+    #pageLocalisation{
+        padding: 80px 200px 80px 200px;
+    }
+    #displayPageProduct {
+        margin: 100px 200px 100px 200px;
+    }
+    #carrousel{
+        margin: 0 150px 0 150px;
+    }
+    #navMenu{
+        width: 1425px;
+        text-align: center;
+    }
+    #imgMaison1{
+        width: 700px;
+    }
+    #imgMaison2{
+        width: 500px;
+    }
+    #imgMaison3{
+        width: 700px;
+        margin-left: 100px;
+    }
+    #textMaison1{
+        margin: 160px 0 0 220px; 
+        width: 500px
+    }
+    #textMaison2{
+        margin: 180px 190px 0 350px; 
+        width: 500px;
+    }
+    #textMaison3{
+        margin: 165px 150px 0 180px; 
+        width: 500px;
+    }
+}
+@media screen and (min-width:1600px) and (max-width:1720px) {
+    #pageLocalisation {
+        padding: 80px 300px 80px 300px;
+    }
+
+    #displayPageProduct {
+        margin: 100px 300px 100px 300px;
+    }
+    #carrousel{
+        margin: 0 200px 0 200px;
+    }
+    #navMenu{
+        width: 1625px;
+        text-align: center;
+    }
+    #imgMaison1{
+        width: 770px;
+    }
+    #imgMaison2{
+        width: 500px;
+    }
+    #imgMaison3{
+        width: 700px;
+        margin-left: 150px;
+    }
+    #textMaison1{
+        margin: 160px 0 0 200px; 
+        width: 600px
+    }
+    #textMaison2{
+        margin: 180px 190px 0 350px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 180px 120px 0 180px; 
+        width: 550px;
+    }
+}
+@media screen and (min-width:1720px) and (max-width:2000px){
+    #pageLocalisation{
+        padding: 80px 300px 80px 300px;
+    }
+    #displayPageProduct{
+        margin: 100px 400px 100px 400px;
+    }
+    #navMenu{
+        width: 1750px;
+        text-align: center;
+    }
+    #imgMaison1{
+        width: 850px;
+    }
+    #imgMaison2{
+        width: 600px;
+    }
+    #imgMaison3{
+        width: 800px;
+        margin-left: 150px;
+    }
+    #textMaison1{
+        margin: 160px 0 0 220px; 
+        width: 550px
+    }
+    #textMaison2{
+        margin: 180px 190px 0 350px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 180px 120px 0 180px; 
+        width: 550px;
+    }
+}
+@media screen and (min-width:1000px) and (max-width:1920px){
+    .emplacementBoutique{
+        height:520px;
+        width:470px;
+    }
+    .pictureLocalisation img{
+        width: 450px;
+    }
+    #ensembleMaison1{
+        display: flex; 
+        margin: 50px 0 50px 0
+    }
+    #textMaison1, #textMaison2, #textMaison3 {
+        font-size: 20px;
+    }
+    #ensembleMaison2, #ensembleMaison3{
+        display: flex;
+    }
+    #imgMaison3{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+}
+@media screen and (min-width:2000px) and (max-width:4000px){
+    #imgMaison1{
+        width: 1050px;
+    }
+    #imgMaison2{
+        width: 900px;
+    }
+    #imgMaison3{
+        width: 1100px;
+        margin-left: 250px;
+    }
+    #textMaison1{
+        margin: 220px 0 0 270px; 
+        width: 550px
+    }
+    #textMaison2{
+        margin: 300px 190px 0 450px; 
+        width: 550px;
+    }
+    #textMaison3{
+        margin: 250px 120px 0 280px; 
+        width: 550px;
+    }
+}

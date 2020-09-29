@@ -49,13 +49,15 @@
         </nav>
         <section id="productPage">
             <h2> Nos Produits </h2>
-            <div class="row">
-                <div class="col-md-4 col-lg-3"> <a class="dropdown-item" href="produit.php">Tous nos produits</a></div>
-                <div class="col-md-4 col-lg-2"> <a class="dropdown-item" href="patisserie.php">Patisserie</a></div>
-                <div class="col-md-4 col-lg-3">   <a class="dropdown-item" href="boulangerie.php">Boulangerie</a></div>
-                <div class="col-md-6 col-lg-2">   <a class="dropdown-item" href="viennoiserie.php">Viennoiserie</a></div>
-                <div class="col-md-6 col-lg-2">   <a class="dropdown-item" href="biscuiterie.php" style="color: #e25541">Biscuiterie</a </div>
+            <div class="row" id="navProduit">
+                <div class="col-12 col-sm-3 col-lg-2" id="linkAllProduct"> <a class="dropdown-item" href="produit.php" style="color: #e25541">Tous nos produits</a></div>
+                <div class="col-12 col-sm-2 col-lg-2"> <a class="dropdown-item" href="patisserie.php">Patisserie</a></div>
+                <div class="col-12 col-sm-2 col-lg-2">   <a class="dropdown-item" href="boulangerie.php">Boulangerie</a></div>
+                <div class="col-12 col-sm-2 col-lg-2">   <a class="dropdown-item" href="viennoiserie.php">Viennoiserie</a></div>
+                <div class="col-12 col-sm-2 col-lg-2">   <a class="dropdown-item" href="biscuiterie.php">Biscuiterie</a </div>
             </div>
+        </section>
+        <section>
             <div id="displayPageProduct">
                 <?php
                 require_once('connectdb.php');

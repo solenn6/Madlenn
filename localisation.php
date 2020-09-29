@@ -56,8 +56,8 @@
                     <p> 23 Avenue des fontenelles, 35400 Saint-Malo</p>
                     <p class="ouvertureBoutique"> Tous les jours 8h-13h et 16h-19h</p>
                     <p class="ouvertureBoutique"> Le dimanche 8h-13h </p>
-                    <div class="ligneBus">
-                        <img src="img/fontenelles.PNG" style="margin-left: 40px">
+                    <div class="ligneBus" id="busMadlenn">
+                        <img src="img/fontenelles.PNG">
                         <p> fontenelles </p>
                     </div>
                     <a  href="https://www.google.fr/maps/place/23+Avenue+des+Fontenelles,+35400+Saint-Malo/@48.6684153,-1.981902,17z/data=!3m1!4b1!4m5!3m4!1s0x480e82313f11fda7:0xcf617d143af3c2a0!8m2!3d48.6684153!4d-1.9797133"><img src="img/location.png" alt="logo de localisation" name="logo de localisation">Plan </a>
@@ -69,8 +69,8 @@
                     <h3> Marché de Saint-Servan </h3>
                     <p> 3 Place Bouvet, 35400 Saint-Malo</p>
                     <p>Mardi et Vendredi</p>
-                    <div class="ligneBus">
-                        <img src="img/saintServanBus.PNG" style="margin-left: 25px">
+                    <div class="ligneBus" id="busStServan">
+                        <img src="img/saintServanBus.PNG">
                         <p> Paramé </p>
                     </div>
                     <a href="https://www.google.fr/maps/place/3+Place+Bouvet,+35400+Saint-Malo/@48.6377961,-2.0193843,17z/data=!3m1!4b1!4m5!3m4!1s0x480e813f17157371:0x5e357949377a84ff!8m2!3d48.6377961!4d-2.0171956"><img src="img/location.png" alt="logo de localisation" name="logo de localisation">Plan</a>
@@ -82,7 +82,7 @@
                     <h3> Marché de Paramé </h3>
                     <p> 1 Avenue de la Borderie, 35400 Saint-Malo</p>
                     <p> Mercredi et Samedi</p>
-                    <div class="ligneBus">
+                    <div class="ligneBus" id="busParame">
                         <img src="img/parameBus.PNG">
                         <p> Paramé </p>
                     </div>
@@ -95,8 +95,8 @@
                     <h3> Marché de Rocabey  </h3>
                     <p> Place des Halles, 35400 Saint-Malo</p>
                     <p> Jeudi et Samedi </p>
-                    <div class="ligneBus">
-                        <img src="img/rocabeyBus.PNG" style="margin-left: 40px">
+                    <div class="ligneBus" id="busRocabey">
+                        <img src="img/rocabeyBus.PNG">
                         <p> Paramé </p>
                     </div>
                     <a href="https://www.google.fr/maps/place/Rue+des+Halles,+35400+Saint-Malo/@48.6522419,-2.006715,17z/data=!3m1!4b1!4m5!3m4!1s0x480e817aa56c04b5:0xf5dc375df8d64263!8m2!3d48.6522419!4d-2.0045263"> <img src="img/location.png" alt="logo de localisation" name="logo de localisation">Plan</a>
